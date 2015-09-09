@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intellgence"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".IntellgenceLife" >
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/kerwin_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" >
+    </com.baidu.mapapi.MapView>
+
+    <Button
+        android:id="@+id/button1"
+        style="@drawable/nav_turn_via_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/nav_turn_via_1"
+        android:text="定位"
+        android:textColor="#FF000000" />
+
+</RelativeLayout>
